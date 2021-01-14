@@ -16,8 +16,6 @@ def bandwidth(wave_path):
 
     first_sample = 0
     last_sample = block_size_in_samples
-    first_sample = 0
-    last_sample = block_size_in_samples
     if last_sample > len(data):
         last_sample = len(data)
     block_samples = data[first_sample:last_sample]
